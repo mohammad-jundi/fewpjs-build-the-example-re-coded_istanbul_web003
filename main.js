@@ -20,8 +20,8 @@ document.querySelector("body").addEventListener("click", e => {
     divErr.classList.remove("hidden")
     setTimeout(() => divErr.classList.add("hidden"), 5000 )
   })
-  //unlike
-  } else if (e.target.className === "like-glyph activated-heart"){
+
+} else if (e.target.className === "like-glyph activated-heart"){
     e.target.classList.remove("activated-heart")
     e.target.innerText = EMPTY_HEART
   }
